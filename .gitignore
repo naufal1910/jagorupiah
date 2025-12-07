@@ -1,1 +1,271 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+/backend/dist/
+/frontend/build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/code-snippets/
+!.vscode/extensions.json
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Test files
+test-results/
+playwright-report/
+test-results.xml
+
+# Sentry
+.sentryclirc
+
+# Local configuration
+config/local.json
+config/development.json
+config/production.json
+
+# Assets and media (if using external CDN)
+/frontend/public/assets/videos/
+/frontend/public/assets/audio/
+
+# User uploaded content
+uploads/
+user-content/
+
+# API keys and secrets
+secrets.json
+api-keys.json
+credentials.json
+
+# Docker
+.dockerignore
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Monitoring and analytics
+*.prof
+
+# Local development
+.local
+.localcache
+
+# Package manager lock files (keep one, remove others based on preference)
+# package-lock.json (npm)
+# yarn.lock (yarn)
+# pnpm-lock.yaml (pnpm)
+
+# Frontend specific
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Backend specific
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+
+# Testing
+/backend/coverage/
+/frontend/coverage/
+
+# Storybook
+/frontend/storybook-static/
+
+# Webpack
+/frontend/.webpack-cache/
+
+# ESLint
+/frontend/.eslintcache
+
+# Prettier
+/.prettierignore
+
+# Husky
+.husky/_
+
+# Lint-staged
+.staged-
+
+# Commitlint
+.commitlint
+
+# Microbundle
+.size-snapshot.json
+
+# Rollup
+.rollup.cache/
+
+# Vite
+/frontend/dist-ssr/
+/frontend/*.local
+
+# SvelteKit
+/frontend/.svelte-kit/
+
+# Remix
+/frontend/build/
+
+# Astro
+/frontend/dist/
+/frontend/.astro/
+
+# SolidJS
+/frontend/dist/
+
+# Marko
+/frontend/dist/
+
+# Nuxt
+/frontend/.nuxt/
+/frontend/.output/
+
+# Sapper
+/frontend/.sapper/
+
+# UmiJS
+/frontend/dist/
+/frontend/.umi-production/
+/frontend/.umi-test/
+
+# Blitz.js
+/frontend/.blitz/
+
+# RedwoodJS
+/frontend/api/dist/
+/frontend/web/dist/
+
+# Frontend framework specific
+/frontend/.next/
+/frontend/out/
+/frontend/.quasar/
+/frontend/.nuxt/
+/frontend/dist/
+/frontend/build/
+/frontend/.output/
+/frontend/.vercel/
+/frontend/.netlify/
+/frontend/.firebase/
+/frontend/.amplify/
+
+
+# Agent OS
+D:/project/jagorupiah/agent-os
 agent-os/
